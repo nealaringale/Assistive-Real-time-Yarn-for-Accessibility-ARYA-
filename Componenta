@@ -1,0 +1,27 @@
+
+
+1. **Identify Components:**
+   - Flex Sensors
+   - Accelerometer
+   - Arduino Nano
+   - Bluetooth Module
+   - Metallic Strip (if needed)
+   - Power Supply components (if not mentioned)
+   - Connecting wires
+
+2. **Connect Flex Sensors and Accelerometer to Arduino Nano:**
+   - Connect the output of each flex sensor to an analog pin on Arduino.
+   - Connect the accelerometer to appropriate pins on the Arduino (refer to the accelerometer datasheet for pin configurations).
+
+3. **Connect Bluetooth Module:**
+   - Connect the Bluetooth module to the UART (TX and RX) pins on Arduino.
+
+4. **Power Supply:**
+   - Connect power sources (battery or other) to power the Arduino, flex sensors, accelerometer, and Bluetooth module.
+
+5. **Connect Metallic Strip (if needed):**
+   - Connect the metallic strip between the cutlet for differentiation (refer to the project details for specifics).
+
+6. **Connect Arduino to Android Phone:**
+   - Use Bluetooth to establish a communication link between Arduino and the Android phone.
+
